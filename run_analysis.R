@@ -50,3 +50,5 @@ tidy_data <- merge(x=tidy_data, y=activity_labels, by="activityNumber")
 columns_to_remove <- c("Group.1", "Group.2")
 tidy_data <- tidy_data[, !(names(tidy_data) %in% columns_to_remove)]
 
+# Finally, save the tidy data to a csv file.
+write.csv(tidy_data, "tidy_data.txt", row.names=FALSE)
