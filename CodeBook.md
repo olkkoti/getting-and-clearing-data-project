@@ -93,4 +93,4 @@ These are all mean values of the original data set. The variables are
 * fBodyBodyGyroMagMean
 * fBodyBodyGyroMagStd
 * fBodyBodyGyroJerkMagMean
-* fBodyBodyGyroJerkMagSt
+* fBodyBodyGyroJerkMagStd
